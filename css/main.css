@@ -1,0 +1,91 @@
+.page-part__blocks-inside {
+    margin: 20px 93.5px;
+    border: 1px solid slateblue;                                            /*just for testing*/
+}
+
+.blocks-inside__info {
+    margin: 70px 0px 80px 0px;
+    border: 1px solid green;                                                /*just for testing*/
+}
+
+.page-part_newsletter {
+    margin-top: 0px;
+}
+
+/*Apply form block*/
+
+.page-part__input-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    width: 300px;
+}
+
+input[type="email"] {
+    padding: 19px 35px;
+    margin: 10px 0px;
+    background-color: var(--input-email-form-background-color);
+    border: 2px solid var(--input-email-from-border-color);
+    border-radius: 39px;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--input-email-from-text-color);
+}
+
+button[type="submit"] {
+    padding: 17px 35px;
+    width: 300px;
+    background-color: var(--button-background-color);
+    color: var(--header-text-color);
+    padding: 19px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--bakcground-color-button-hover);
+}
+
+/*Parthners block*/
+
+.page-part__client_name {
+    padding: 25px 40px;
+    width: 273px;
+    border: 1px solid var(--client-name-border-color);
+}
+
+.page-part__client_name p {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: var(--dark-text-color);
+    margin-bottom: 15px;
+}
+
+/*Testimonials block*/
+
+p.page-part__small-dark {
+    margin: 30px 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 13.5256px;
+    line-height: 17px;
+    letter-spacing: 0.16907px;
+    color: var(--dark-text-color);
+}
+
+.button-testimonials {
+    width: 300px;
+}

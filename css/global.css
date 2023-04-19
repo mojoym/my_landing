@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --main-background-color: #FFFFFF;
+    --header-text-color: #FFFFFF;
+    --h2-h3-text-color-on-main-background: #252B42;
+    --main-text-color-on-main-background: #374754;
+    --button-background-color: #2091F9;
+    --input-email-form-background-color: #F4F4F4;
+    --input-email-from-border-color: #E8E8E8;
+    --input-email-from-text-color: #18171D;
+    --bakcground-color-button-hover: #18171D;
+    --client-name-border-color:#D8D8D8;
+    --dark-text-color: #374754;
+    font-family: 'Graphik', sans-serif;
+    font-style: normal;
+    font-weight: 400;;
+    text-align: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header, main, footer, .main__page-part {
+    background-color: var(--main-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 310px;
+    width: 100%;                                                                        
+    margin: 0px;
+    border: 2px solid orange;                                                                   /*for testing*/
+}
+
+h2 {
+    font-style: normal;
+    color: var(--h2-h3-text-color-on-main-background);
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    margin: 100px 50px 25px 50px;
+    border: 1px solid yellowgreen;                                                                     /*just for testing*/
+}
+
+h3 {
+    color: var(--h2-h3-text-color-on-main-background);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    border: 1px solid fuchsia;                                                                      /*just for testing*/
+}
+
+h4 {
+    color: var(--main-text-color-on-main-background);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    margin: 0px 76.5px;
+    border: 1px solid forestgreen;                                                                  /*just for testing*/
+}
+
+p {
+    color: var(--main-text-color-on-main-background);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    border: 1px solid saddlebrown;                                                                  /*just for testing*/
+}
+
+.big-image {                                                                                            
+    display: block;
+    padding: 25px 10px 25px 10px;
+    width: 100%;
+    border: 1px solid red;                                                                      /*just for testing*/
+}
+
+.button {                                                                                               /*apply button for div*/
+    display: inline-block;
+    align-items: center;
+    max-width: 238px;                                                                                   
+    min-width: 150px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border: 1px solid green;                                                                             /*for testing*/
+}
+
+a.apply-button {                                                                                           /*apply-button for a*/
+    padding: 16px 0px;
+    height: 52px;
+    color: var(--main-background-color);
+    background-color: var(--button-background-color);
+    text-decoration: none;
+    border-radius: 26px;
+    cursor: pointer;
+    border: 1px solid red;                                                                                 /*for testing*/
+}
