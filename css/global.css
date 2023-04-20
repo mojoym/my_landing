@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    /*outline: 1px solid red;*/
 }
 
 :root {
@@ -35,7 +36,6 @@ header, main, footer, .main__page-part {
     min-width: 310px;
     width: 100%;                                                                        
     margin: 0px;
-    border: 2px solid orange;                                                                   /*for testing*/
 }
 
 h2 {
@@ -48,7 +48,6 @@ h2 {
     line-height: 55px;
     letter-spacing: 0.2px;
     margin: 100px 50px 25px 50px;
-    border: 1px solid yellowgreen;                                                                     /*just for testing*/
 }
 
 h3 {
@@ -59,7 +58,6 @@ h3 {
     letter-spacing: 0.1px;
     margin: 20px 0px;
     padding: 0px 20px;
-    border: 1px solid fuchsia;                                                                      /*just for testing*/
 }
 
 h4 {
@@ -70,7 +68,6 @@ h4 {
     line-height: 40px;
     letter-spacing: 0.2px;
     margin: 0px 76.5px;
-    border: 1px solid forestgreen;                                                                  /*just for testing*/
 }
 
 p {
@@ -80,14 +77,12 @@ p {
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0.2px;
-    border: 1px solid saddlebrown;                                                                  /*just for testing*/
 }
 
 .big-image {                                                                                            
     display: block;
     padding: 25px 10px 25px 10px;
     width: 100%;
-    border: 1px solid red;                                                                      /*just for testing*/
 }
 
 .button {                                                                                               /*apply button for div*/
@@ -101,7 +96,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    border: 1px solid green;                                                                             /*for testing*/
 }
 
 a.apply-button {                                                                                           /*apply-button for a*/
@@ -112,5 +106,4 @@ a.apply-button {                                                                
     text-decoration: none;
     border-radius: 26px;
     cursor: pointer;
-    border: 1px solid red;                                                                                 /*for testing*/
 }

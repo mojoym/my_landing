@@ -1,11 +1,9 @@
 .page-part__blocks-inside {
     margin: 20px 93.5px;
-    border: 1px solid slateblue;                                            /*just for testing*/
 }
 
 .blocks-inside__info {
     margin: 70px 0px 80px 0px;
-    border: 1px solid green;                                                /*just for testing*/
 }
 
 .page-part_newsletter {
