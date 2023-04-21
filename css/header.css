@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }   
 
 .header__menu {
@@ -26,5 +27,7 @@
 }
 
 .header__title {
+    display: inline-block;
+    align-items: center;
     color: var(--header-text-color);
 }
