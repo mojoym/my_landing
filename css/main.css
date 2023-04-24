@@ -1,3 +1,7 @@
+.main__page-part {
+    padding-bottom: 50px;
+}
+
 .page-part__blocks-inside {
     margin: 20px 93.5px;
 }
@@ -86,4 +90,118 @@ p.page-part__small-dark {
 
 .button-testimonials {
     width: 300px;
+}
+
+.page-part__about-client {
+    display: block;
+    width: 50%;
+}
+
+.about-client__info__goal {
+    color: var(--dark-text-color);
+    font-weight: 700;
+    font-size: 10.1442px;
+    line-height: 15px;
+    letter-spacing: 0.0845349px;
+}
+
+.about-client__info__position {
+    color: var(--h2-h3-text-color-on-main-background);
+    font-weight: 400;
+    font-size: 12.6802px;
+    line-height: 23px;
+    letter-spacing: 0.16907px;
+}
+
+.about-client__info {
+    display: inline-block;
+}
+
+/*Pricing block*/
+
+.other_background {
+    background-color: var(--other-background-color);
+}
+
+.other_background h2, .other_background h4{
+    color: var(--header-text-color);
+}
+
+.other_background h4 {
+    margin-bottom: 100px;
+}
+
+.pricing__main-background, .pricing__other-background{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    border: 1px solid var(--prices_block-border-color);
+    border-radius: 10px;
+    padding: 40px;  
+    gap: 30px;                                                                                                  /**?????*/
+    font-family: 'Graphik';                                                                           
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.pricing__main-background {
+    background-color: var(--main-background-color);
+}
+
+.pricing__title {
+    color: var(--h2-h3-text-color-on-main-background);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.price, .price__inner {
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.pricing__info {
+    width: 60%;
+    margin: auto;
+}
+
+.pricing__price {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.dolar-sign {
+    text-align: left;
+}
+
+.price {
+    font-size: 74px;
+    line-height: 84px;
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+
+.pricing__details__features {
+    padding-bottom: 15px;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.pricing__other-background {
+    background-color: var(--button-background-color);
+}
+
+.pricing__other-background * {
+    color: var(--header-text-color);
+}
+
+a.other {
+    background-color: var(--main-background-color);
+    color: var(--button-background-color);
 }

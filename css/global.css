@@ -8,6 +8,7 @@
 
 :root {
     --main-background-color: #FFFFFF;
+    --other-background-color: #252B42;
     --header-text-color: #FFFFFF;
     --h2-h3-text-color-on-main-background: #252B42;
     --main-text-color-on-main-background: #374754;
@@ -18,6 +19,7 @@
     --bakcground-color-button-hover: #18171D;
     --client-name-border-color:#D8D8D8;
     --dark-text-color: #374754;
+    --prices_block-border-color: #DEDEDE;
     font-family: 'Graphik', sans-serif;
     font-style: normal;
     font-weight: 400;;
