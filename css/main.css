@@ -1,5 +1,4 @@
 .main__page-part {
-    padding: auto;
     padding-bottom: 50px;
 }
 
@@ -25,7 +24,7 @@
     width: 300px;
 }
 
-input[type="email"], input[type="name"], textarea[type="message"]{
+input[type="email"], input[type="text"], textarea[type="message"]{
     padding: 19px 35px;
     margin: 10px 0px;
     background-color: var(--input-email-form-background-color);
@@ -259,7 +258,7 @@ a.other {
 
 .page-part__input-email p {
     color: var(--h2-h3-text-color-on-main-background);
-    font-style: 'Graphik';
+    font-family: 'Graphik';
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -271,7 +270,7 @@ textarea[type="message"] {
     border-radius: 0px;
 }
 
-.page-part__input-email input[type="email"], input[type="name"], textarea[type="message"] {
+.page-part__input-email input[type="email"], input[type="text"], textarea[type="message"] {
     font-family: 'Roboto';
     margin-bottom: 25px;
     color: var(--input-email-from-text-color);

@@ -111,7 +111,7 @@
 
     /*active styles for burger span*/
 
-    .header__menu-small.active span:first-of-type() {
+    .header__menu-small.active span:first-of-type {
         opacity: 0;
         display: none;
     }
