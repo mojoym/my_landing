@@ -15,11 +15,11 @@
     <header class="header container" id="header-container">
         <div class="header__nav-barr">
             <ul class="header__menu menu">
-                <li><a href="/index.html" class="menu__item">Home</a></li> <!--Change href here-->
-                <li><a href="#partners" class="menu__item">Product</a></li> <!--Change href here-->
-                <li><a href="#pricing" class="menu__item">Pricing</a></li> <!--Change href here-->
-                <li><a href="#features" class="menu__item">About</a></li> <!--Change href here-->
-                <li><a href="#contact-us" class="menu__item">Contact</a></li> <!--Change href here-->
+                <li><a href="/index.html" class="menu__item">Home</a></li>
+                <li><a href="#partners" class="menu__item">Product</a></li>
+                <li><a href="#pricing" class="menu__item">Pricing</a></li>
+                <li><a href="#features" class="menu__item">About</a></li>
+                <li><a href="#contact-us" class="menu__item">Contact</a></li>
             </ul>
             <div class="header__logo-container">
                 <img src="images/header/figma-land-logo.png" width="188" alt="instagram-logo">
@@ -32,26 +32,26 @@
                 </div>
             </div>
             <ul class="header__menu-social">
-                <li><a href="https://twitter.com/" class="social__item"><img src="images/header/twitter-logo.png"
-                            width="33" alt="Twitterr logo"></a></li> <!--Change href here-->
-                <li><a href="https://www.facebook.com/" class="social__item"><img src="images/header/facebook-logo.png"
-                            width="33" alt="facebook logo"></a></li> <!--Change href here-->
-                <li><a href="https://www.linkedin.com/" class="social__item"><img src="images/header/linkedin-logo.png"
-                            width="33" alt="linkedin logo"></a></li> <!--Change href here-->
+                <li><a href="https://twitter.com/" class="social__item" target="_blank"><img src="images/header/twitter-logo.png"
+                            width="33" alt="Twitterr logo"></a></li>
+                <li><a href="https://www.facebook.com/" class="social__item" target="_blank"><img src="images/header/facebook-logo.png"
+                            width="33" alt="facebook logo"></a></li>
+                <li><a href="https://www.linkedin.com/" class="social__item" target="_blank"><img src="images/header/linkedin-logo.png"
+                            width="33" alt="linkedin logo"></a></li>
             </ul>
         </div>
         <nav class="header__nav page-part">
-        <div class="header__title">
-            <div class="header__title__block">
-                <h2 class="header__title test-block">The best products start with Figma</h2>
+            <div class="header__title">
+                <div class="header__title__block">
+                    <h2 class="header__title test-block">The best products start with Figma</h2>
+                </div>
+                <div class="header__title__block">
+                    <h4 class="header__title">Most calendars are designed for teams</h4>
+                </div>
+                <div class="header__title__block button">
+                    <a href="#contact-us" class="apply-button">Try For</a>
+                </div>
             </div>
-            <div class="header__title__block">
-                <h4 class="header__title">Most calendars are designed for teams</h4>
-            </div>
-            <div class="header__title__block button">
-                <a href="#" class="apply-button">Try For</a> <!--Change href here-->
-            </div>
-        </div>
         </nav>
     </header>
 
@@ -63,9 +63,8 @@
             <div class="main__page-part page-part">
                 <h2 class="page-part__h2">Features</h2>
                 <h4 class="page-part__p">Most calendars are designed for teams</h4>
-                <img class="page-part__image big-image" src="images/main/svg/laptop-on-the-table.svg"
+                <img class="page-part__image big-image" id="laptop-on-the-table" src="images/main/svg/laptop-on-the-table.svg"
                     alt="laptop-on-the-table">
-                <!-- <p class="page-part__p">State is designed for freelancers</p> -->
                 <div class="page-part__blocks-inside blocks-inside">
                     <div class="blocks-inside__info">
                         <img class="blocks-inside__info__image" src="images/main/open-type-features.png"
@@ -90,45 +89,49 @@
                         <p class="blocks-inside__info_p">State hepls you see how many more days you need to work to
                             reach your financial goal</p>
                     </div>
-                    <!--
-                <div class="page-part__screen">
-                    <img class="page-part__screen__image" src="images/main/screen-with-lady/screen.png" width="500"
-                        alt="srcreen">
-                    <img class="page-part__screen__elipce" src="images/main/screen-with-lady/ellipse.png" alt="ellipce">
-                    <img class="page-part__screen__triangle" src="images/main/screen-with-lady/triangle.png"
-                        alt="triangle">
-                </div>-->
                 </div>
+                <img class="page-part__image big-image" id="lady-with-laptop" src="images/main/lady-with-laptop.png"
+                    alt="lady-with-laptop">
             </div>
         </section>
 
         <!--Fastest way to orginize section-->
 
         <section>
-            <div class="main__page-part page-part">
-                <h2>Fastest way to orginize</h2>
-                <h4>Most calendars are designed for teams.</h4>
-                <div class="page-part__button button">
-                    <a href="#" class="page-part apply-button">Try For Free</a> <!--Change href here-->
+            <div class="main__page-part page-part part-sections">
+                <div>
+                    <h2>Fastest way to orginize</h2>
+                    <h4>Most calendars are designed for teams.</h4>
+                    <div class="page-part__button button">
+                        <a href="#contact-us" class="page-part apply-button">Try For Free</a>
+                    </div>
                 </div>
-                <img src="images/main/svg/laptop_only.svg" alt="laptop-only">
+                <div>
+                    <img class="page-part__image big-image" src="images/main/svg/laptop_only.svg" alt="laptop-only">
+                </div>
             </div>
         </section>
 
         <!--Newsletter section-->
 
         <section>
-            <div class="main__page-part page-part">
-                <h3>At your fingertrips</h3>
-                <h2 class="page-part_newsletter">Newsletter</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-                <img class="big-image" src="images/main/newsletter.svg" alt="newsletter">
-                <h3>Subscribe to our Newsletter</h3>
-                <p>Available exclusivery on Figmaland</p>
-                <form class="page-part__input-email" action="#" method="POST">
-                    <input type="email" id="email" name="email" required>
-                    <button type="submit">Subscribe</button>
-                </form>
+            <div class="main__page-part page-part part-sections">
+                <div>
+                    <h3>At your fingertrips</h3>
+                    <h2 class="page-part_newsletter">Newsletter</h2>
+                    <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                </div>
+                <div>
+                    <img class="page-part__image big-image" src="images/main/newsletter.svg" alt="newsletter">
+                </div>
+                <div>
+                    <h3>Subscribe to our Newsletter</h3>
+                    <p>Available exclusivery on Figmaland</p>
+                    <form class="page-part__input-email" action="#" method="POST">
+                        <input type="email" id="email" name="email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
             </div>
         </section>
 
@@ -153,7 +156,7 @@
                     </div>
                 </div>
                 <div class="page-part__button button">
-                    <a href="#" class="page-part apply-button">Try For Free</a> <!--Change href here-->
+                    <a href="#contact-us" class="page-part apply-button">Try For Free</a>
                 </div>
             </div>
         </section>
@@ -161,7 +164,7 @@
         <!--Testimonials section-->
 
         <section>
-            <div class="main__page-part page-part"> <!--Testimonals block-->
+            <div class="main__page-part page-part">
                 <h2>Testimonials</h2>
                 <img src="images/main/ibm.svg" alt="ibm">
                 <p class="page-part__small-dark">Most calendars are designed for teams. Slate is designed for
@@ -175,7 +178,7 @@
                     </div>
                 </div>
                 <div class="page-part__button button">
-                    <a href="#" class="page-part apply-button">More Testimonials</a> <!--Change href here-->
+                    <a href="#contact-us" class="page-part apply-button">More Testimonials</a>
                 </div>
             </div>
         </section>
@@ -183,65 +186,67 @@
         <!--Pricing section-->
 
         <section class="other-background" id="pricing">
-            <div class="main__page-part page-part"> <!--Pricing block-->
+            <div class="main__page-part page-part">
                 <h2>Pricing</h2>
                 <h4>Most calendars are designed for teams</h4>
-                <div class="pricing__main-background">
-                    <p class="pricing__title">FREE</p>
-                    <p class="pricing__info">Organize across all apps by hand</p>
-                    <div class="pricing__price">
-                        <p class="pricing__title price">0</p>
-                        <div class="price__inner">
-                            <p class="pricing__title dolar-sign">$</p>
-                            <p class="pricing__months">Per Month</p>
+                <div class="pricing-plans">
+                    <div class="pricing__main-background">
+                        <p class="pricing__title">FREE</p>
+                        <p class="pricing__info">Organize across all apps by hand</p>
+                        <div class="pricing__price">
+                            <p class="pricing__title price">0</p>
+                            <div class="price__inner">
+                                <p class="pricing__title dolar-sign">$</p>
+                                <p class="pricing__months">Per Month</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="pricing__details">
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                    </div>
-                    <a href="#" class="page-part apply-button">Order Now</a>
-                </div>
-                <div class="pricing__other-background">
-                    <p class="pricing__title">STANDART</p>
-                    <p class="pricing__info">Organize across all apps by hand</p>
-                    <div class="pricing__price">
-                        <p class="pricing__title price">10</p>
-                        <div class="price__inner">
-                            <p class="pricing__title dolar-sign">$</p>
-                            <p class="pricing__months">Per Month</p>
+                        <div class="pricing__details">
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
                         </div>
+                        <a href="#" class="page-part apply-button">Order Now</a>
                     </div>
-                    <div class="pricing__details">
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                    </div>
-                    <a href="#" class="page-part apply-button other">Order Now</a>
-                </div>
-                <div class="pricing__main-background">
-                    <p class="pricing__title">BUSINESS</p>
-                    <p class="pricing__info">Organize across all apps by hand</p>
-                    <div class="pricing__price">
-                        <p class="pricing__title price">99</p>
-                        <div class="price__inner">
-                            <p class="pricing__title dolar-sign">$</p>
-                            <p class="pricing__months">Per Month</p>
+                    <div class="pricing__other-background">
+                        <p class="pricing__title">STANDART</p>
+                        <p class="pricing__info">Organize across all apps by hand</p>
+                        <div class="pricing__price">
+                            <p class="pricing__title price">10</p>
+                            <div class="price__inner">
+                                <p class="pricing__title dolar-sign">$</p>
+                                <p class="pricing__months">Per Month</p>
+                            </div>
                         </div>
+                        <div class="pricing__details">
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                        </div>
+                        <a href="#" class="page-part apply-button other">Order Now</a>
                     </div>
-                    <div class="pricing__details">
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
-                        <p class="pricing__details__features">Pricing Feature</p>
+                    <div class="pricing__main-background">
+                        <p class="pricing__title">BUSINESS</p>
+                        <p class="pricing__info">Organize across all apps by hand</p>
+                        <div class="pricing__price">
+                            <p class="pricing__title price">99</p>
+                            <div class="price__inner">
+                                <p class="pricing__title dolar-sign">$</p>
+                                <p class="pricing__months">Per Month</p>
+                            </div>
+                        </div>
+                        <div class="pricing__details">
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                            <p class="pricing__details__features">Pricing Feature</p>
+                        </div>
+                        <a href="#" class="page-part apply-button">Order Now</a>
                     </div>
-                    <a href="#" class="page-part apply-button">Order Now</a>
                 </div>
             </div>
         </section>
@@ -249,7 +254,7 @@
         <!--Contact Us-->
 
         <section id="contact-us">
-            <div class="main__page-part page-part"> <!--Contuct Us block-->
+            <div class="main__page-part page-part">
                 <h2>Contact Us</h2>
                 <h4>Most calendars are designed for teams. </h4>
                 <div class="contact-us__social-network">
@@ -271,13 +276,14 @@
                         <p>willie.jennings@example.com</p>
                     </div>
                 </div>
-                <div class="contact-us__form"> <!--Contact us form-->
+
+                <!--Contact us form-->
+                <div class="contact-us__form">
                     <form class="page-part__input-email" action="#" method="POST">
                         <p>Contact Us</p>
                         <input type="text" name="name" placeholder="Your Name">
                         <input type="email" name="email" placeholder="Your email">
-                        <textarea name="message" placeholder="Your message" rows="4"
-                            cols="50"></textarea>
+                        <textarea name="message" placeholder="Your message" rows="4" cols="50"></textarea>
                         <button type="submit">Send</button>
                     </form>
                 </div>

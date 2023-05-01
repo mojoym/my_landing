@@ -275,3 +275,29 @@ textarea {
     margin-bottom: 25px;
     color: var(--input-email-from-text-color);
 }
+
+
+/*When the screen widther then 850px*/
+
+@media screen and (min-width: 850px) {
+    .page-part {
+        max-width: 1190px;
+        margin: auto;
+    }
+
+    .page-part__blocks-inside, .part-sections, .page-part__clients, .pricing-plans {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+    }
+
+    .pricing__main-background, .pricing__other-background {
+        margin: auto;
+    }
+
+    .pricing__other-background {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
