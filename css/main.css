@@ -24,7 +24,7 @@
     width: 300px;
 }
 
-input[type="email"], input[type="text"], textarea[type="message"]{
+input[type="email"], input[type="text"], textarea{
     padding: 19px 35px;
     margin: 10px 0px;
     background-color: var(--input-email-form-background-color);
@@ -244,7 +244,7 @@ a.other {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    pad: 52px 49px;
+    padding: 52px 49px;
     gap: 45px;
     height: 669px;
     width: 378px; 
@@ -266,11 +266,11 @@ a.other {
     padding-bottom: 20px;
 }
 
-textarea[type="message"] {
+textarea {
     border-radius: 0px;
 }
 
-.page-part__input-email input[type="email"], input[type="text"], textarea[type="message"] {
+.page-part__input-email input[type="email"], input[type="text"], textarea {
     font-family: 'Roboto';
     margin-bottom: 25px;
     color: var(--input-email-from-text-color);
