@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-   /* outline: 1px solid red;*/
+    /*outline: 1px solid red;*/
 }
 
 :root {
     --main-background-color: #FFFFFF;
     --other-background-color: #252B42;
     --header-text-color: #FFFFFF;
+    --burger-menu-log0-color: #FFFFFF;
     --h2-h3-text-color-on-main-background: #252B42;
     --main-text-color-on-main-background: #374754;
     --button-background-color: #2091F9;
@@ -135,10 +136,18 @@ a.apply-button {                                                                
     border-radius: 26px;
     cursor: pointer;
 }
-/*
-@media screen and (min-width: 1110px){
-    header {
 
+
+
+/*
+
+@media screen and (min-width: 850px) {
+    
+
+    .header__menu {
+        z-index: 1;
     }
-}
+};
+
+
 */
