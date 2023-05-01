@@ -1,4 +1,5 @@
 .main__page-part {
+    padding: auto;
     padding-bottom: 50px;
 }
 
@@ -24,7 +25,7 @@
     width: 300px;
 }
 
-input[type="email"] {
+input[type="email"], input[type="name"], textarea[type="message"]{
     padding: 19px 35px;
     margin: 10px 0px;
     background-color: var(--input-email-form-background-color);
@@ -62,13 +63,14 @@ button[type="submit"]:hover {
 
 /*Parthners block*/
 
-.page-part__client_name {
+.page-part__clients__client_name {
+    margin: auto;
     padding: 25px 40px;
     width: 273px;
     border: 1px solid var(--client-name-border-color);
 }
 
-.page-part__client_name p {
+.page-part__clients__client_name p {
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.1px;
@@ -88,12 +90,9 @@ p.page-part__small-dark {
     color: var(--dark-text-color);
 }
 
-.button-testimonials {
-    width: 300px;
-}
-
 .page-part__about-client {
     display: block;
+    margin: auto;
     width: 50%;
 }
 
@@ -119,15 +118,11 @@ p.page-part__small-dark {
 
 /*Pricing block*/
 
-.other_background {
-    background-color: var(--other-background-color);
-}
-
-.other_background h2, .other_background h4{
+.other-background h2, .other-background h4{
     color: var(--header-text-color);
 }
 
-.other_background h4 {
+.other-background h4 {
     margin-bottom: 100px;
 }
 
@@ -141,6 +136,7 @@ p.page-part__small-dark {
     gap: 30px;                                                                                                  /**?????*/
     font-family: 'Graphik';                                                                           
     font-weight: 400;
+    margin: auto;
     margin-bottom: 50px;
 }
 
@@ -204,4 +200,79 @@ p.page-part__small-dark {
 a.other {
     background-color: var(--main-background-color);
     color: var(--button-background-color);
+}
+
+
+/*Contact us block*/
+
+.contact-us__social-network {
+    margin: auto;
+    padding: 70px 0px 0px 0px;
+}
+
+
+.contact-us__social-network .middle {
+    margin: 0px 40px;
+}
+
+.contact-us__info {
+    width: 340px;
+    margin: 70px auto;
+}
+
+.contact-us__info__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-us__info img {
+    width: 25.33px;
+    height: 31.67px;
+}
+
+.contact-us__info p {
+    font-family: 'Graphik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    pad: 52px 49px;
+    gap: 45px;
+    height: 669px;
+    width: 378px; 
+    margin: auto;
+
+
+    border: 1px solid var(--contact-us-form-broder-color);                      
+    box-shadow: 0px 13px 19px var(--contact-us-form-border-box-shadov);                                                  /*Shadow*/
+    border-radius: 20px;
+}
+
+.page-part__input-email p {
+    color: var(--h2-h3-text-color-on-main-background);
+    font-style: 'Graphik';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    padding-bottom: 20px;
+}
+
+textarea[type="message"] {
+    border-radius: 0px;
+}
+
+.page-part__input-email input[type="email"], input[type="name"], textarea[type="message"] {
+    font-family: 'Roboto';
+    margin-bottom: 25px;
+    color: var(--input-email-from-text-color);
 }
